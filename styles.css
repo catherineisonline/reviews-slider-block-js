@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(243, 237, 226);
+}
+main {
+  position: relative;
+}
+
+.container {
+  position: relative;
+}
+.title {
+  font-size: 25px;
+  text-align: center;
+  color: rgba(31, 31, 31, 0.74);
+}
+
+.underline {
+  margin: 0 auto;
+  padding: 5px;
+  box-shadow: 0px 1px 10px grey;
+  background-color: rgb(248, 211, 243);
+  width: 40%;
+  align-items: center;
+}
+
+.review {
+  background-color: white;
+  margin: 0 auto;
+  top: 350%;
+  text-align: center;
+  box-shadow: 5px 8px 15px grey;
+  padding: 30px;
+  width: 50%;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container img {
+  height: 150px;
+  width: 150px;
+  align-items: center;
+  border-radius: 90px;
+  opacity: 0.8;
+}
+#author {
+  color: rgb(54, 54, 54);
+  font-size: 20px;
+}
+
+#job {
+  text-transform: uppercase;
+  color: lightseagreen;
+  font-size: 15px;
+}
+
+#info {
+  width: 40%;
+  margin: 0 auto;
+  color: rgb(54, 54, 54);
+  max-height: 100px;
+}
+
+.button-container {
+  margin-top: 60px;
+  background-color: transparent;
+}
+
+.button-container .prev-btn,
+.next-btn {
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: rgb(248, 193, 241);
+}
+
+.random-btn {
+  font-size: 15px;
+  color: rgb(54, 54, 54);
+  padding: 5px;
+  margin-top: 30px;
+  background-color: rgb(248, 211, 243);
+  border-color: rgb(248, 193, 241);
+}
+
+@media (max-width: 1024px) {
+  .button-container {
+    margin-top: 60px;
+  }
+
+  #info {
+    font-size: 15px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #info {
+    font-size: 15px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .button-container {
+    margin-top: 60px;
+  }
+
+  #info {
+    font-size: 15px;
+    width: 90%;
+  }
+}
