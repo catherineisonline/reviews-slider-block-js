@@ -1,4 +1,4 @@
-![Reviews Slider Block]()
+![Reviews Slider Block](https://github.com/catherineisonline/reviews-slider-block-js/blob/main/images/project-preview.png?raw=true)
 
 # Reviews Slider Block
 
